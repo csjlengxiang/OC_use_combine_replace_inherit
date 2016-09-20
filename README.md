@@ -16,5 +16,5 @@
 首先解决，如何使用默认协议代码？
 采用ProcotolKit，实现注入默认协议.https://github.com/forkingdog/ProtocolKit
 
-然后解决，如何侵入实现该协议的vc
+然后解决，如何侵入实现该协议的vc？
 采用runtime，交换方法时候，拦截实现该协议的vc，并调用默认协议的方法
